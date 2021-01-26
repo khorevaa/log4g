@@ -20,7 +20,6 @@ func init() {
 	gmanager.RegisterOutputCreator(typeMemory, NewMemoryOutput)
 	gmanager.RegisterOutputCreator(typeRollingSize, NewRollingOutput)
 	gmanager.RegisterOutputCreator(typeRollingTime, NewRollingOutput)
-	gmanager.RegisterOutputCreator(typeSyslog, NewSyslogOutput)
 
 	// default config
 	cfg := &api.Config{

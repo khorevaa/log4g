@@ -18,6 +18,10 @@ type syslogOutput struct {
 	t api.Level //threshold
 }
 
+func init() {
+	gmanager.RegisterOutputCreator(typeSyslog, NewSyslogOutput)
+}
+
 func (o *syslogOutput) Send(e *api.Event) {
 	if e.Level < o.t {
 		return
