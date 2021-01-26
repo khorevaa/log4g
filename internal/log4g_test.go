@@ -3,8 +3,8 @@ package internal
 import (
 	"testing"
 
+	"github.com/khorevaa/log4g/api"
 	"github.com/stretchr/testify/assert"
-	"github.com/xtfly/log4g/api"
 )
 
 func getOutput(id string) *memoryOutput {

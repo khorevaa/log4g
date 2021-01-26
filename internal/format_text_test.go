@@ -5,8 +5,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/khorevaa/log4g/api"
 	"github.com/stretchr/testify/assert"
-	"github.com/xtfly/log4g/api"
 )
 
 func TestFormat(t *testing.T) {

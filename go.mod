@@ -1,4 +1,4 @@
-module github.com/xtfly/log4g
+module github.com/khorevaa/log4g
 
 go 1.12
 

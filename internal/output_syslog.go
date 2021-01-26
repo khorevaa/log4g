@@ -5,7 +5,7 @@ package internal
 import (
 	"log/syslog"
 
-	"github.com/xtfly/log4g/api"
+	"github.com/khorevaa/log4g/api"
 )
 
 const (

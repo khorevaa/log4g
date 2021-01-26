@@ -38,10 +38,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtfly/log4g/internal/archive"
-	"github.com/xtfly/log4g/internal/archive/gzip"
-	"github.com/xtfly/log4g/internal/archive/tar"
-	"github.com/xtfly/log4g/internal/archive/zip"
+	"github.com/khorevaa/log4g/internal/archive"
+	"github.com/khorevaa/log4g/internal/archive/gzip"
+	"github.com/khorevaa/log4g/internal/archive/tar"
+	"github.com/khorevaa/log4g/internal/archive/zip"
 )
 
 // Common constants

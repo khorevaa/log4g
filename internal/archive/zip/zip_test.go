@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xtfly/log4g/internal/archive/zip"
-	iotest "github.com/xtfly/log4g/internal/io"
+	"github.com/khorevaa/log4g/internal/archive/zip"
+	iotest "github.com/khorevaa/log4g/internal/io"
 )
 
 var zipTests = map[string]struct{ want map[string][]byte }{

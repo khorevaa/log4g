@@ -1,7 +1,7 @@
 package main
 
 import (
-	log "github.com/xtfly/log4g"
+	log "github.com/khorevaa/log4g"
 )
 
 func main() {

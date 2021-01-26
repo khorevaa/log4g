@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/xtfly/log4g/internal/archive/gzip"
+	"github.com/khorevaa/log4g/internal/archive/gzip"
 )
 
 // Reader is the interface for reading files from an archive.

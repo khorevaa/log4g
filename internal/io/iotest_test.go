@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/xtfly/log4g/internal/io"
+	"github.com/khorevaa/log4g/internal/io"
 )
 
 func TestTempFile(t *testing.T) {

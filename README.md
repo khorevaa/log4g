@@ -41,7 +41,7 @@ all support verb as follow:
  - %{line}: The line number
  - %{longfile}: The full file path，eg. /a/b/c/d.go
  - %{shortfile}: The file basename, eg. d.go
- - %{longpkg}: The full package name, eg. github.com/xtfly/log4g
+ - %{longpkg}: The full package name, eg. github.com/khorevaa/log4g
  - %{shortpkg}: The package basename, eg. log4g
  - %{longfunc}: The full function name, eg. littleEndian.PutUint32
  - %{shortfunc}: The base function name, eg. PutUint32
@@ -116,7 +116,7 @@ outputs:
 ## usage
 
 ```
-import "github.com/xtfly/log4g"
+import "github.com/khorevaa/log4g"
 
 func main() {
 

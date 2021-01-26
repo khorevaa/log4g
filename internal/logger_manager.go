@@ -11,7 +11,7 @@ import (
 
 	"path"
 
-	"github.com/xtfly/log4g/api"
+	"github.com/khorevaa/log4g/api"
 )
 
 type configNotification interface {

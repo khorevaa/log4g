@@ -6,11 +6,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/xtfly/log4g/internal/archive"
-	"github.com/xtfly/log4g/internal/archive/gzip"
-	"github.com/xtfly/log4g/internal/archive/tar"
-	"github.com/xtfly/log4g/internal/archive/zip"
-	iotest "github.com/xtfly/log4g/internal/io"
+	"github.com/khorevaa/log4g/internal/archive"
+	"github.com/khorevaa/log4g/internal/archive/gzip"
+	"github.com/khorevaa/log4g/internal/archive/tar"
+	"github.com/khorevaa/log4g/internal/archive/zip"
+	iotest "github.com/khorevaa/log4g/internal/io"
 )
 
 const (

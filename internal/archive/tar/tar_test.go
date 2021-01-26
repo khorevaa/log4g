@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xtfly/log4g/internal/archive/tar"
-	myio "github.com/xtfly/log4g/internal/io"
+	"github.com/khorevaa/log4g/internal/archive/tar"
+	myio "github.com/khorevaa/log4g/internal/io"
 )
 
 type file struct {

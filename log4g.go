@@ -1,8 +1,8 @@
 package log4g
 
 import (
-	"github.com/xtfly/log4g/api"
-	"github.com/xtfly/log4g/internal"
+	"github.com/khorevaa/log4g/api"
+	"github.com/khorevaa/log4g/internal"
 )
 
 // GetLogger return a instance that implements Logger interface specified by name,
